@@ -1,0 +1,25 @@
+img[alt="rana" i]{
+    background-color: black;
+}
+input[type="text" i]{
+    color: red;
+}
+button[disabled="text"]{
+    color: red;
+    border: 2px dashed black;
+}
+p::before{
+    content: "haroon";
+    color: red;
+}
+p::after{
+    content: "rana saab";
+    color: red;
+}
+p::first-line{
+    /* color: green; */
+}
+p::first-letter{
+    color: rgb(55, 9, 125);
+    font-weight: bold;
+}
